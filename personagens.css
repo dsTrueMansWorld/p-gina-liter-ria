@@ -1,0 +1,47 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.imagem-personagem img{
+    width: 150px;
+    height: 150px;
+}
+
+.personagens{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 1.0px 1.0px 0px;
+}
+
+.espaco{
+    padding: 40px;
+}
+
+.personagens {
+    background-color: #EDECEC;
+    border: 10px solid #EDECEC;
+    border-radius: 30px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5; /* espaço entre as linhas */
+}
+
+hr{
+    margin-top: 50px;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif; 
+}

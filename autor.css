@@ -1,0 +1,128 @@
+h1{
+    font-weight: 500;
+}
+
+.biografia{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.biografia img{
+    border-radius: 15px;
+    width: 250px;
+    margin-top: 60px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.biografia p{
+    width: 600px;
+    height: 150px;
+    line-height: 1.5;
+}
+
+.biografia h1{
+    display: flex; 
+    justify-content: center;
+    font-weight: 500px;
+}
+
+.autor p{
+    display: flex;
+    flex-direction: column;
+}
+
+.autor{
+    background-color: #EDECEC;
+    border: 5px solid #EDECEC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.machado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.machado h2{
+    font-weight: 500;
+}
+
+.obras img{
+    width: 400px; /* largura */
+    height: 600px; /* altura */
+    border-radius: 20px;
+}
+
+.obras{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.principais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curiosidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.conteiner{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 450px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.conteiner img{
+    width: 100px;
+    height: 90px;
+}
+
+hr{
+    margin-top: 50px;
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    font-family: "Poppins", sans-serif; 
+}
+
+@media screen and (max-width: 950px) {
+    .biografia{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .obras{
+        display: flex;
+        flex-direction: column;
+    }
+}

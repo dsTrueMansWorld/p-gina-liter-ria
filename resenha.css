@@ -1,0 +1,64 @@
+.resenhaTitulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.resenhaTitulo h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.resenha{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.resenhaTitulo h1{
+    font-family: "Poppins", sans-serif;
+}
+
+.resenhaTexto{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #EDECEC;
+    border-radius: 10px;
+    box-shadow: 1.0px 1.0px 0px;
+}
+
+.resenhaTexto p{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+}
+
+.recomendado{
+    display: flex;
+    justify-content: end;
+    color: #0FDE18;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.avaliacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avaliacao h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.estrelas img{
+    width: auto;
+    height: auto;
+    max-width: 40px;
+    padding-top: 5px;
+}
+
+
